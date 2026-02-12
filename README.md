@@ -1,7 +1,7 @@
 # PianoRollEdit
 # Editor Piano Roll per note con synth Collegato
-
-[ YouTube link Video](https://www.youtube.com/@dado1563)
+[ YouTube link Video](https://youtu.be/A2n7cKgsFXI))
+[ YouTube Pagina Autore](https://www.youtube.com/@dado1563)
 
 
 ## Super Collider 3.14.1 November 23, 2025
