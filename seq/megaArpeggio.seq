@@ -1,0 +1,393 @@
+var o, p;
+o = [
+	Array.prNew(44),  Event.prNew,  Array.prNew(12),  Event.prNew,  
+	Array.prNew(12),  Event.prNew,  Array.prNew(12),  Event.prNew,  
+	Array.prNew(12),  Event.prNew,  Array.prNew(12),  Event.prNew,  
+	Array.prNew(12),  Event.prNew,  Array.prNew(12),  Event.prNew,  
+	Array.prNew(12),  Event.prNew,  Array.prNew(12),  Event.prNew,  
+	Array.prNew(12),  Event.prNew,  Array.prNew(12),  Event.prNew,  
+	Array.prNew(12),  Event.prNew,  Array.prNew(12),  Event.prNew,  
+	Array.prNew(12),  Event.prNew,  Array.prNew(12),  Event.prNew,  
+	Array.prNew(12),  Event.prNew,  Array.prNew(12),  Event.prNew,  
+	Array.prNew(12),  Event.prNew,  Array.prNew(12),  Event.prNew,  
+	Array.prNew(12),  Event.prNew,  Array.prNew(12),  Event.prNew,  
+	Array.prNew(12),  Event.prNew,  Array.prNew(12),  Event.prNew,  
+	Array.prNew(12),  Event.prNew,  Array.prNew(12),  Event.prNew,  
+	Array.prNew(12),  Event.prNew,  Array.prNew(12),  Event.prNew,  
+	Array.prNew(12),  Event.prNew,  Array.prNew(12),  Event.prNew,  
+	Array.prNew(12),  Event.prNew,  Array.prNew(12),  Event.prNew,  
+	Array.prNew(12),  Event.prNew,  Array.prNew(12),  Event.prNew,  
+	Array.prNew(12),  Event.prNew,  Array.prNew(12),  Event.prNew,  
+	Array.prNew(12),  Event.prNew,  Array.prNew(12),  Event.prNew,  
+	Array.prNew(12),  Event.prNew,  Array.prNew(12),  Event.prNew,  
+	Array.prNew(12),  Event.prNew,  Array.prNew(12),  Event.prNew,  
+	Array.prNew(12),  Event.prNew,  Array.prNew(12),  Event.prNew,  
+	Array.prNew(12)
+];
+p = [
+	// Array
+	0, [ o[1],  o[3],  o[5],  o[7],  
+		o[9],  o[11],  o[13],  o[15],  
+		o[17],  o[19],  o[21],  o[23],  
+		o[25],  o[27],  o[29],  o[31],  
+		o[33],  o[35],  o[37],  o[39],  
+		o[41],  o[43],  o[45],  o[47],  
+		o[49],  o[51],  o[53],  o[55],  
+		o[57],  o[59],  o[61],  o[63],  
+		o[65],  o[67],  o[69],  o[71],  
+		o[73],  o[75],  o[77],  o[79],  
+		o[81],  o[83],  o[85],  o[87] ],  
+	// Event
+	1, [ array: o[2],  size: 3,  
+		proto: nil,  parent: nil,  
+		know: true ],  
+	// Array
+	2, [ 'beat',  7.1666666666667,  nil,  nil,  
+		nil,  nil,  'midinote',  78.0,  
+		nil,  nil,  'sustain',  0.83333333333333 ],  
+	// Event
+	3, [ array: o[4],  size: 3,  
+		proto: nil,  parent: nil,  
+		know: true ],  
+	// Array
+	4, [ 'beat',  7.4166666666667,  nil,  nil,  
+		nil,  nil,  'midinote',  76.0,  
+		nil,  nil,  'sustain',  0.83333333333333 ],  
+	// Event
+	5, [ array: o[6],  size: 3,  
+		proto: nil,  parent: nil,  
+		know: true ],  
+	// Array
+	6, [ 'beat',  7.6666666666667,  nil,  nil,  
+		nil,  nil,  'midinote',  74.0,  
+		nil,  nil,  'sustain',  0.83333333333333 ],  
+	// Event
+	7, [ array: o[8],  size: 3,  
+		proto: nil,  parent: nil,  
+		know: true ],  
+	// Array
+	8, [ 'beat',  7.9166666666667,  nil,  nil,  
+		nil,  nil,  'midinote',  80.0,  
+		nil,  nil,  'sustain',  0.83333333333333 ],  
+	// Event
+	9, [ array: o[10],  size: 3,  
+		proto: nil,  parent: nil,  
+		know: true ],  
+	// Array
+	10, [ 'beat',  5.75,  nil,  nil,  
+		nil,  nil,  'midinote',  68.0,  
+		nil,  nil,  'sustain',  0.83333333333333 ],  
+	// Event
+	11, [ array: o[12],  size: 3,  
+		proto: nil,  parent: nil,  
+		know: true ],  
+	// Array
+	12, [ 'beat',  5.5,  nil,  nil,  
+		nil,  nil,  'midinote',  62.0,  
+		nil,  nil,  'sustain',  0.83333333333333 ],  
+	// Event
+	13, [ array: o[14],  size: 3,  
+		proto: nil,  parent: nil,  
+		know: true ],  
+	// Array
+	14, [ 'beat',  5.25,  nil,  nil,  
+		nil,  nil,  'midinote',  64.0,  
+		nil,  nil,  'sustain',  0.83333333333333 ],  
+	// Event
+	15, [ array: o[16],  size: 3,  
+		proto: nil,  parent: nil,  
+		know: true ],  
+	// Array
+	16, [ 'beat',  5.0,  nil,  nil,  
+		nil,  nil,  'midinote',  66.0,  
+		nil,  nil,  'sustain',  0.83333333333333 ],  
+	// Event
+	17, [ array: o[18],  size: 3,  
+		proto: nil,  parent: nil,  
+		know: true ],  
+	// Array
+	18, [ 'beat',  6.75,  nil,  nil,  
+		nil,  nil,  'midinote',  68.0,  
+		nil,  nil,  'sustain',  0.83333333333333 ],  
+	// Event
+	19, [ array: o[20],  size: 3,  
+		proto: nil,  parent: nil,  
+		know: true ],  
+	// Array
+	20, [ 'beat',  6.5,  nil,  nil,  
+		nil,  nil,  'midinote',  62.0,  
+		nil,  nil,  'sustain',  0.83333333333333 ],  
+	// Event
+	21, [ array: o[22],  size: 3,  
+		proto: nil,  parent: nil,  
+		know: true ],  
+	// Array
+	22, [ 'beat',  6.25,  nil,  nil,  
+		nil,  nil,  'midinote',  64.0,  
+		nil,  nil,  'sustain',  0.83333333333333 ],  
+	// Event
+	23, [ array: o[24],  size: 3,  
+		proto: nil,  parent: nil,  
+		know: true ],  
+	// Array
+	24, [ 'beat',  6.0,  nil,  nil,  
+		nil,  nil,  'midinote',  66.0,  
+		nil,  nil,  'sustain',  0.83333333333333 ],  
+	// Event
+	25, [ array: o[26],  size: 3,  
+		proto: nil,  parent: nil,  
+		know: true ],  
+	// Array
+	26, [ 'beat',  7.75,  nil,  nil,  
+		nil,  nil,  'midinote',  68.0,  
+		nil,  nil,  'sustain',  0.83333333333333 ],  
+	// Event
+	27, [ array: o[28],  size: 3,  
+		proto: nil,  parent: nil,  
+		know: true ],  
+	// Array
+	28, [ 'beat',  7.5,  nil,  nil,  
+		nil,  nil,  'midinote',  62.0,  
+		nil,  nil,  'sustain',  0.83333333333333 ],  
+	// Event
+	29, [ array: o[30],  size: 3,  
+		proto: nil,  parent: nil,  
+		know: true ],  
+	// Array
+	30, [ 'beat',  7.25,  nil,  nil,  
+		nil,  nil,  'midinote',  64.0,  
+		nil,  nil,  'sustain',  0.83333333333333 ],  
+	// Event
+	31, [ array: o[32],  size: 3,  
+		proto: nil,  parent: nil,  
+		know: true ],  
+	// Array
+	32, [ 'beat',  7.0,  nil,  nil,  
+		nil,  nil,  'midinote',  66.0,  
+		nil,  nil,  'sustain',  0.83333333333333 ],  
+	// Event
+	33, [ array: o[34],  size: 3,  
+		proto: nil,  parent: nil,  
+		know: true ],  
+	// Array
+	34, [ 'beat',  5.9166666666667,  nil,  nil,  
+		nil,  nil,  'midinote',  80.0,  
+		nil,  nil,  'sustain',  0.83333333333333 ],  
+	// Event
+	35, [ array: o[36],  size: 3,  
+		proto: nil,  parent: nil,  
+		know: true ],  
+	// Array
+	36, [ 'beat',  5.6666666666667,  nil,  nil,  
+		nil,  nil,  'midinote',  74.0,  
+		nil,  nil,  'sustain',  0.83333333333333 ],  
+	// Event
+	37, [ array: o[38],  size: 3,  
+		proto: nil,  parent: nil,  
+		know: true ],  
+	// Array
+	38, [ 'beat',  5.4166666666667,  nil,  nil,  
+		nil,  nil,  'midinote',  76.0,  
+		nil,  nil,  'sustain',  0.83333333333333 ],  
+	// Event
+	39, [ array: o[40],  size: 3,  
+		proto: nil,  parent: nil,  
+		know: true ],  
+	// Array
+	40, [ 'beat',  5.1666666666667,  nil,  nil,  
+		nil,  nil,  'midinote',  78.0,  
+		nil,  nil,  'sustain',  0.83333333333333 ],  
+	// Event
+	41, [ array: o[42],  size: 3,  
+		proto: nil,  parent: nil,  
+		know: true ],  
+	// Array
+	42, [ 'beat',  6.9166666666667,  nil,  nil,  
+		nil,  nil,  'midinote',  80.0,  
+		nil,  nil,  'sustain',  0.83333333333333 ],  
+	// Event
+	43, [ array: o[44],  size: 3,  
+		proto: nil,  parent: nil,  
+		know: true ],  
+	// Array
+	44, [ 'beat',  6.6666666666667,  nil,  nil,  
+		nil,  nil,  'midinote',  74.0,  
+		nil,  nil,  'sustain',  0.83333333333333 ],  
+	// Event
+	45, [ array: o[46],  size: 3,  
+		proto: nil,  parent: nil,  
+		know: true ],  
+	// Array
+	46, [ 'beat',  6.4166666666667,  nil,  nil,  
+		nil,  nil,  'midinote',  76.0,  
+		nil,  nil,  'sustain',  0.83333333333333 ],  
+	// Event
+	47, [ array: o[48],  size: 3,  
+		proto: nil,  parent: nil,  
+		know: true ],  
+	// Array
+	48, [ 'beat',  6.1666666666667,  nil,  nil,  
+		nil,  nil,  'midinote',  78.0,  
+		nil,  nil,  'sustain',  0.83333333333333 ],  
+	// Event
+	49, [ array: o[50],  size: 3,  
+		proto: nil,  parent: nil,  
+		know: true ],  
+	// Array
+	50, [ 'beat',  0.5,  nil,  nil,  
+		nil,  nil,  'midinote',  56.0,  
+		nil,  nil,  'sustain',  0.83333333333333 ],  
+	// Event
+	51, [ array: o[52],  size: 3,  
+		proto: nil,  parent: nil,  
+		know: true ],  
+	// Array
+	52, [ 'beat',  0.25,  nil,  nil,  
+		nil,  nil,  'midinote',  58.0,  
+		nil,  nil,  'sustain',  0.83333333333333 ],  
+	// Event
+	53, [ array: o[54],  size: 3,  
+		proto: nil,  parent: nil,  
+		know: true ],  
+	// Array
+	54, [ 'beat',  0.083333333333333,  nil,  nil,  
+		nil,  nil,  'midinote',  60.0,  
+		nil,  nil,  'sustain',  0.83333333333333 ],  
+	// Event
+	55, [ array: o[56],  size: 3,  
+		proto: nil,  parent: nil,  
+		know: true ],  
+	// Array
+	56, [ 'beat',  0.75,  nil,  nil,  
+		nil,  nil,  'midinote',  62.0,  
+		nil,  nil,  'sustain',  0.83333333333333 ],  
+	// Event
+	57, [ array: o[58],  size: 3,  
+		proto: nil,  parent: nil,  
+		know: true ],  
+	// Array
+	58, [ 'beat',  2.75,  nil,  nil,  
+		nil,  nil,  'midinote',  68.0,  
+		nil,  nil,  'sustain',  0.83333333333333 ],  
+	// Event
+	59, [ array: o[60],  size: 3,  
+		proto: nil,  parent: nil,  
+		know: true ],  
+	// Array
+	60, [ 'beat',  2.0,  nil,  nil,  
+		nil,  nil,  'midinote',  66.0,  
+		nil,  nil,  'sustain',  0.83333333333333 ],  
+	// Event
+	61, [ array: o[62],  size: 3,  
+		proto: nil,  parent: nil,  
+		know: true ],  
+	// Array
+	62, [ 'beat',  2.25,  nil,  nil,  
+		nil,  nil,  'midinote',  64.0,  
+		nil,  nil,  'sustain',  0.83333333333333 ],  
+	// Event
+	63, [ array: o[64],  size: 3,  
+		proto: nil,  parent: nil,  
+		know: true ],  
+	// Array
+	64, [ 'beat',  2.5,  nil,  nil,  
+		nil,  nil,  'midinote',  62.0,  
+		nil,  nil,  'sustain',  0.83333333333333 ],  
+	// Event
+	65, [ array: o[66],  size: 3,  
+		proto: nil,  parent: nil,  
+		know: true ],  
+	// Array
+	66, [ 'beat',  3.6666666666667,  nil,  nil,  
+		nil,  nil,  'midinote',  69.0,  
+		nil,  nil,  'sustain',  0.83333333333333 ],  
+	// Event
+	67, [ array: o[68],  size: 3,  
+		proto: nil,  parent: nil,  
+		know: true ],  
+	// Array
+	68, [ 'beat',  2.9166666666667,  nil,  nil,  
+		nil,  nil,  'midinote',  67.0,  
+		nil,  nil,  'sustain',  0.83333333333333 ],  
+	// Event
+	69, [ array: o[70],  size: 3,  
+		proto: nil,  parent: nil,  
+		know: true ],  
+	// Array
+	70, [ 'beat',  3.1666666666667,  nil,  nil,  
+		nil,  nil,  'midinote',  65.0,  
+		nil,  nil,  'sustain',  0.83333333333333 ],  
+	// Event
+	71, [ array: o[72],  size: 3,  
+		proto: nil,  parent: nil,  
+		know: true ],  
+	// Array
+	72, [ 'beat',  3.4166666666667,  nil,  nil,  
+		nil,  nil,  'midinote',  63.0,  
+		nil,  nil,  'sustain',  0.83333333333333 ],  
+	// Event
+	73, [ array: o[74],  size: 3,  
+		proto: nil,  parent: nil,  
+		know: true ],  
+	// Array
+	74, [ 'beat',  4.5833333333333,  nil,  nil,  
+		nil,  nil,  'midinote',  73.0,  
+		nil,  nil,  'sustain',  0.83333333333333 ],  
+	// Event
+	75, [ array: o[76],  size: 3,  
+		proto: nil,  parent: nil,  
+		know: true ],  
+	// Array
+	76, [ 'beat',  3.8333333333333,  nil,  nil,  
+		nil,  nil,  'midinote',  71.0,  
+		nil,  nil,  'sustain',  0.83333333333333 ],  
+	// Event
+	77, [ array: o[78],  size: 3,  
+		proto: nil,  parent: nil,  
+		know: true ],  
+	// Array
+	78, [ 'beat',  4.0833333333333,  nil,  nil,  
+		nil,  nil,  'midinote',  69.0,  
+		nil,  nil,  'sustain',  0.83333333333333 ],  
+	// Event
+	79, [ array: o[80],  size: 3,  
+		proto: nil,  parent: nil,  
+		know: true ],  
+	// Array
+	80, [ 'beat',  4.3333333333333,  nil,  nil,  
+		nil,  nil,  'midinote',  67.0,  
+		nil,  nil,  'sustain',  0.83333333333333 ],  
+	// Event
+	81, [ array: o[82],  size: 3,  
+		proto: nil,  parent: nil,  
+		know: true ],  
+	// Array
+	82, [ 'beat',  1.75,  nil,  nil,  
+		nil,  nil,  'midinote',  62.0,  
+		nil,  nil,  'sustain',  0.83333333333333 ],  
+	// Event
+	83, [ array: o[84],  size: 3,  
+		proto: nil,  parent: nil,  
+		know: true ],  
+	// Array
+	84, [ 'beat',  1.0,  nil,  nil,  
+		nil,  nil,  'midinote',  60.0,  
+		nil,  nil,  'sustain',  0.83333333333333 ],  
+	// Event
+	85, [ array: o[86],  size: 3,  
+		proto: nil,  parent: nil,  
+		know: true ],  
+	// Array
+	86, [ 'beat',  1.25,  nil,  nil,  
+		nil,  nil,  'midinote',  58.0,  
+		nil,  nil,  'sustain',  0.83333333333333 ],  
+	// Event
+	87, [ array: o[88],  size: 3,  
+		proto: nil,  parent: nil,  
+		know: true ],  
+	// Array
+	88, [ 'beat',  1.5,  nil,  nil,  
+		nil,  nil,  'midinote',  56.0,  
+		nil,  nil,  'sustain',  0.83333333333333 ]
+];
+prUnarchive(o,p);

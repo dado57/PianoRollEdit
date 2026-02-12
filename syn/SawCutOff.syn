@@ -1,0 +1,44 @@
+var o, p;
+o = [
+	Event.prNew,  Array.prNew(128)
+];
+p = [
+	// Event
+	0, [ array: o[1],  size: 33,  
+		proto: nil,  parent: nil,  
+		know: true ],  
+	// Array
+	1, [ nil,  nil,  'fAmt',  2376.1432004805,  
+		nil,  nil,  'fAtk',  0.13,  
+		'fRelCurve',  -4,  'vDecCurve',  -4,  
+		nil,  nil,  nil,  nil,  
+		nil,  nil,  nil,  nil,  
+		nil,  nil,  'rq',  0.15858514636076,  
+		'aAtkCurve',  -4,  'fRel',  0.22,  
+		'revMix',  0.54331538930639,  'aAtk',  0.001,  
+		'fAtkCurve',  -4,  'vRel',  0.59,  
+		nil,  nil,  nil,  nil,  
+		nil,  nil,  'vDec',  0.41,  
+		'vRelCurve',  -4,  nil,  nil,  
+		nil,  nil,  nil,  nil,  
+		'aRelCurve',  -4,  'detune',  0.01907794262186,  
+		'delayTime',  0.05,  'decayTime',  0,  
+		'wave',  0,  'vDepth',  0.0062713582780968,  
+		'vAtkCurve',  -4,  nil,  nil,  
+		'cutoff',  176.0635673584,  'vAtk',  0.001,  
+		nil,  nil,  nil,  nil,  
+		nil,  nil,  nil,  nil,  
+		nil,  nil,  'aDec',  0.56,  
+		nil,  nil,  nil,  nil,  
+		'aDecCurve',  -3.84,  'vRate',  6.3400704743176,  
+		nil,  nil,  nil,  nil,  
+		nil,  nil,  nil,  nil,  
+		'fSus',  0.14,  nil,  nil,  
+		nil,  nil,  'ampGlobal',  0.57732863504549,  
+		'aRel',  0.44,  nil,  nil,  
+		'aSus',  0.54,  'fDec',  0.65,  
+		nil,  nil,  'revRoom',  0.52280924470877,  
+		'vSus',  0.54,  nil,  nil,  
+		'fDecCurve',  -4,  nil,  nil ]
+];
+prUnarchive(o,p);

@@ -1,0 +1,78 @@
+var o, p;
+o = [
+	Array.prNew(8),  Event.prNew,  Array.prNew(12),  Event.prNew,  
+	Array.prNew(12),  Event.prNew,  Array.prNew(12),  Event.prNew,  
+	Array.prNew(12),  Event.prNew,  Array.prNew(12),  Event.prNew,  
+	Array.prNew(12),  Event.prNew,  Array.prNew(12),  Event.prNew,  
+	Array.prNew(12)
+];
+p = [
+	// Array
+	0, [ o[1],  o[3],  o[5],  o[7],  
+		o[9],  o[11],  o[13],  o[15] ],  
+	// Event
+	1, [ array: o[2],  size: 3,  
+		proto: nil,  parent: nil,  
+		know: true ],  
+	// Array
+	2, [ 'beat',  0.0,  nil,  nil,  
+		nil,  nil,  'midinote',  60.0,  
+		nil,  nil,  'sustain',  0.25 ],  
+	// Event
+	3, [ array: o[4],  size: 3,  
+		proto: nil,  parent: nil,  
+		know: true ],  
+	// Array
+	4, [ 'beat',  0.25,  nil,  nil,  
+		nil,  nil,  'midinote',  62.0,  
+		nil,  nil,  'sustain',  0.25 ],  
+	// Event
+	5, [ array: o[6],  size: 3,  
+		proto: nil,  parent: nil,  
+		know: true ],  
+	// Array
+	6, [ 'beat',  0.5,  nil,  nil,  
+		nil,  nil,  'midinote',  64.0,  
+		nil,  nil,  'sustain',  0.25 ],  
+	// Event
+	7, [ array: o[8],  size: 3,  
+		proto: nil,  parent: nil,  
+		know: true ],  
+	// Array
+	8, [ 'beat',  0.75,  nil,  nil,  
+		nil,  nil,  'midinote',  65.0,  
+		nil,  nil,  'sustain',  0.25 ],  
+	// Event
+	9, [ array: o[10],  size: 3,  
+		proto: nil,  parent: nil,  
+		know: true ],  
+	// Array
+	10, [ 'beat',  1.0,  nil,  nil,  
+		nil,  nil,  'midinote',  67.0,  
+		nil,  nil,  'sustain',  0.25 ],  
+	// Event
+	11, [ array: o[12],  size: 3,  
+		proto: nil,  parent: nil,  
+		know: true ],  
+	// Array
+	12, [ 'beat',  1.5,  nil,  nil,  
+		nil,  nil,  'midinote',  71.0,  
+		nil,  nil,  'sustain',  0.25 ],  
+	// Event
+	13, [ array: o[14],  size: 3,  
+		proto: nil,  parent: nil,  
+		know: true ],  
+	// Array
+	14, [ 'beat',  1.25,  nil,  nil,  
+		nil,  nil,  'midinote',  69.0,  
+		nil,  nil,  'sustain',  0.25 ],  
+	// Event
+	15, [ array: o[16],  size: 3,  
+		proto: nil,  parent: nil,  
+		know: true ],  
+	// Array
+	16, [ 'beat',  1.75,  nil,  nil,  
+		nil,  nil,  'midinote',  72.0,  
+		nil,  nil,  'sustain',  1.25 ]
+];
+prUnarchive(o,p);
