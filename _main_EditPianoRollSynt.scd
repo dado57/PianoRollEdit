@@ -1,12 +1,9 @@
 // 16.2 11/02/2026 12:30
 // Super Collider 3.14.1 November 23, 2025
-
 // DadoSoft - Italy 02/2026
-
 // carica SynthControls e Help
-*/
-
 // carica SynthControls e Help
+
 ~cPath = Document.current.dir;
 (~cPath +/+ "SynthControls.scd").load;
 (~cPath +/+ "Help.scd").load;
